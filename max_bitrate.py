@@ -3,13 +3,13 @@
 # Usage: python3 max_bitrate.py tx_w tx_gain_db freq_hz dist_km rx_gain_db n0_j bw_hz
 # Implement the calculation for maximum achievable bitrate.
 # Parameters:
-#  tx_w: Transmitter power in watts
+#  tx_w: Transmitted power in watts
 #  tx_gain_db: Transmitter gain in dB
-#  freq_hz: Frequency of the transmission in Hz
-#  dist_km: Distance between the transmitter and receiver in km
+#  freq_hz: Transmission frequency in Hz
+#  dist_km: Separation vector magnitude between transmitter and receiver in km
 #  rx_gain_db: Receiver gain in dB
 #  n0_j: Noise power density in W/Hz
-#  bw_hz: Bandwidth of the channel in Hz
+#  bw_hz: Channel bandwidth in Hz
 # Output:
 #  Print r_max (maximum achievable bitrate)
 #
