@@ -8,7 +8,7 @@
 #  freq_hz: Transmission frequency in Hz
 #  dist_km: Separation vector magnitude between transmitter and receiver in km
 #  rx_gain_db: Receiver gain in dB
-#  n0_j: Noise power density in W/Hz
+#  n0_j: Noise spectral density in W/Hz
 #  bw_hz: Channel bandwidth in Hz
 # Output:
 #  Print r_max (maximum achievable bitrate)
