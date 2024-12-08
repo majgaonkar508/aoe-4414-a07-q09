@@ -3,7 +3,6 @@
 # Usage: python3 max_bitrate.py tx_w tx_gain_db freq_hz dist_km rx_gain_db n0_j bw_hz
 # Implement the calculation for maximum achievable bitrate.
 # Parameters:
-# Parameters:
 #  tx_w: Transmitter power in watts
 #  tx_gain_db: Transmitter gain in dB
 #  freq_hz: Frequency of the transmission in Hz
