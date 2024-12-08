@@ -75,7 +75,3 @@ r_max = bw_hz*math.log2(1 + C/N)
 
 # print result 
 print(math.floor(r_max)) # bps (bits per second)
-
-
-        
-
