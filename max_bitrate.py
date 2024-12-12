@@ -23,7 +23,7 @@ import math # math module
 import sys # argv
 
 # "constants"
-c = 2.99792458e8; # speed of light (m/s)
+c = 2.99792458e8 # speed of light (m/s)
 
 # initialize script arguments
 tx_w = float('nan')
@@ -57,10 +57,10 @@ else:
 lam = c/freq_hz 
 
 # assumptions for loss factors
-L_a_dB = 0; # atmospheric loss (dB)
-L_a = 10**(L_a_dB/10); 
-L_l_dB = -1; # transmitter to antenna line loss (dB)
-L_l = 10**(L_l_dB/10); 
+L_a_dB = 0 # atmospheric loss (dB)
+L_a = 10**(L_a_dB/10)
+L_l_dB = -1 # transmitter to antenna line loss (dB)
+L_l = 10**(L_l_dB/10) 
 
 # gains 
 G_t = 10**(tx_gain_db/10)
